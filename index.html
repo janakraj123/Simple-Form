@@ -11,35 +11,58 @@
 		<legend>This is my form</legend>
 		<h1>Please fill the following Form:</h1>
 
+		<table>
+			<tr>
+				<td><label for="email" style="font-size: 20px";>Email*:</label>
+			<input type="email" name="email" id="email"></td>
+			</tr>
 		
-		<label for="email">Email*:</label>
-			<input type="email" name="email" id="email"><br>
+			<tr>
+				<td><label for="Passwod">Password:</label>
+			<input type="Passwod" name="pass"><br></td>
+			</tr>
+		<tr>
+			<td><label for="Passwod">Conform Password:</label>
+			<input type="Passwod" name="pass"><br></td>
+		</tr>
 
-		<label for="Passwod">Password:</label>
-			<input type="Passwod" name="pass"><br>
-
-		<label for="Passwod">Conform Password:</label>
-			<input type="Passwod" name="pass"><br>
 		
-		<label>Upload your Picture:</label>
+		<tr>
+			<td><label>Upload your Picture:</label>
 			<input type="text" name="pic">
-		<input type="button" name="btn" value="Browse"><br>
-
-		<label for="country"> Select Country:</label>
+		<input type="button" name="btn" value="Browse"><br></td>
+		</tr>
+		<tr>
+			<td><label for="country"> Select Country:</label>
 	    <select id="country" name="country">
 	      <option value="nep">Nepal</option>
 	      <option value="Chin">China</option>
 	      <option value="usa">USA</option>
-	    </select><br>
-			
-	    <label for="checkbox">Hobby:</label>
+	    </select><br></td>
+		</tr>
+		<tr>
+			<td>
+				<label for="checkbox">Hobby:</label>
 	    	<input type="checkbox" name="chek">Football
-	    	<input type="checkbox" name="cheke">Football<br>
-	    <label for="text">Address:</label><br>
+	    	<input type="checkbox" name="cheke">Football
+	    	</td>
+		</tr>
+	 	<tr>
+	 		<td>
+	 			<label for="text">Address:</label>
 			<textarea rows="4" cols="50">
-			</textarea><br>
-		<label for="submit">Submit</label>
-			<input type="submit" name="sub">
+			</textarea>
+	 		</td>
+	 	</tr>
+		<tr>
+			<td>
+				<input type="submit" name="sub">
+			</td>
+		</tr>
+			
+	    
+			
+			</table>
 	</fieldset>
 	</form>
 </center>
