@@ -5,66 +5,57 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<center>
+
 	<form action="#" method="Post">
 		<fieldset>
 		<legend>This is my form</legend>
-		<h1>Please fill the following Form:</h1>
-
+		<center>
 		<table>
 			<tr>
-				<td><label for="email" style="font-size: 20px";>Email*:</label>
-			<input type="email" name="email" id="email"></td>
+				<th><label for="email">Email*:</label></th>
+				<td><input type="email" name="email" id="email"></td>
 			</tr>
 		
 			<tr>
-				<td><label for="Passwod">Password:</label>
-			<input type="Passwod" name="pass"><br></td>
+				<th><label for="Passwod">Password:</label></th>
+				<td><input type="Passwod" name="pass"><br></td>
 			</tr>
 		<tr>
-			<td><label for="Passwod">Conform Password:</label>
-			<input type="Passwod" name="pass"><br></td>
+			<th><label for="Passwod">Conform Password:</label></th>
+			<td><input type="Passwod" name="pass"><br></td>
 		</tr>
 
 		
 		<tr>
-			<td><label>Upload your Picture:</label>
-			<input type="text" name="pic">
+			<th><label>Upload your Picture:</label></th>
+			<td><input type="text" name="pic">
 		<input type="button" name="btn" value="Browse"><br></td>
 		</tr>
 		<tr>
-			<td><label for="country"> Select Country:</label>
-	    <select id="country" name="country">
+			<th><label for="country"> Select Country:</label></th>
+	   		<td> <select id="country" name="country">
 	      <option value="nep">Nepal</option>
 	      <option value="Chin">China</option>
 	      <option value="usa">USA</option>
-	    </select><br></td>
+	    </select></td>
 		</tr>
 		<tr>
-			<td>
-				<label for="checkbox">Hobby:</label>
-	    	<input type="checkbox" name="chek">Football
+			<th><label for="checkbox">Hobby:</label></th>
+	    	<td><input type="checkbox" name="chek">Football
 	    	<input type="checkbox" name="cheke">Football
 	    	</td>
 		</tr>
 	 	<tr>
-	 		<td>
-	 			<label for="text">Address:</label>
-			<textarea rows="4" cols="50">
+	 		<th><label for="text">Address:</label></th>
+			<td><textarea>
 			</textarea>
 	 		</td>
 	 	</tr>
-		<tr>
-			<td>
-				<input type="submit" name="sub">
-			</td>
-		</tr>
-			
-	    
-			
-			</table>
-	</fieldset>
+		</fieldset>
+	</table>
+	<input type="submit" name="sub">
+	</center>
 	</form>
-</center>
+
 </body>
 </html>

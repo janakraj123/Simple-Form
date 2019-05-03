@@ -1,10 +1,12 @@
+input{
+	background-color: #fee3aa;
+}
 fieldset{
-	width: 60%;
-	
+	width: 50%;
+	height: auto;
 }
-legend{
+ legend{
+	color: white;
+	background-color: #ec8013;
 	
-}
-input[type=text] {
- 
 }
