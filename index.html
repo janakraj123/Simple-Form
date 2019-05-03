@@ -1,61 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Form</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="s.css">
 </head>
 <body>
-
-	<form action="#" method="Post">
+	<form action="" method="post">
 		<fieldset>
-		<legend>This is my form</legend>
-		<center>
-		<table>
-			<tr>
-				<th><label for="email">Email*:</label></th>
-				<td><input type="email" name="email" id="email"></td>
-			</tr>
+			<legend>This is my form</legend>
 		
-			<tr>
-				<th><label for="Passwod">Password:</label></th>
-				<td><input type="Passwod" name="pass"><br></td>
-			</tr>
-		<tr>
-			<th><label for="Passwod">Conform Password:</label></th>
-			<td><input type="Passwod" name="pass"><br></td>
-		</tr>
-
-		
-		<tr>
-			<th><label>Upload your Picture:</label></th>
-			<td><input type="text" name="pic">
-		<input type="button" name="btn" value="Browse"><br></td>
-		</tr>
-		<tr>
-			<th><label for="country"> Select Country:</label></th>
-	   		<td> <select id="country" name="country">
-	      <option value="nep">Nepal</option>
-	      <option value="Chin">China</option>
-	      <option value="usa">USA</option>
-	    </select></td>
-		</tr>
-		<tr>
-			<th><label for="checkbox">Hobby:</label></th>
-	    	<td><input type="checkbox" name="chek">Football
+			<label for="email">Email*:</label>
+				<input type="email" name="email" id="email">
+			<br><br>
+			<label for="Passwod">Password:</label>
+				<input type="Passwod" name="pass">
+			<br><br>
+			<label>Upload your Picture:</label>
+				<input type="text" name="pic">
+				<input type="button" name="btn" value="Browse">
+			<br><br>
+			<label>Gender</label>
+				<input type="radio" name="gender" value="male" checked> Male
+  				<input type="radio" name="gender" value="female"> Female
+  			<br><br>
+			<label for="country"> Select Country:</label>
+				<select id="country" name="country">
+			      <option value="nep">Nepal</option>
+			      <option value="Chin">China</option>
+			      <option value="usa">USA</option>
+			    </select>
+			<br><br>
+			<label for="checkbox">Hobby:</label>
+				<input type="checkbox" name="chek">Football
 	    	<input type="checkbox" name="cheke">Football
-	    	</td>
-		</tr>
-	 	<tr>
-	 		<th><label for="text">Address:</label></th>
-			<td><textarea>
-			</textarea>
-	 		</td>
-	 	</tr>
-		</fieldset>
-	</table>
-	<input type="submit" name="sub">
-	</center>
-	</form>
+	    	<br><br>
+	    	<label for="text">Address:</label>
+	    	<textarea rows="10" cols="30"></textarea>
+	    	<br><br>
+	    	<input type="submit" name="sub">
 
+		</fieldset>
+	</form>
 </body>
 </html>

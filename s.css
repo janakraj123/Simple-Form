@@ -1,0 +1,28 @@
+input, textarea{
+	background-color: #fee3aa;
+}
+legend{
+	color: white;
+	background-color: #ec8013;
+
+}
+
+label{
+	float: left;
+	text-align: right;
+	width:30%;
+	margin-right: 5px;
+	padding-right: 10px;
+
+}
+fieldset{
+	width:60%;
+}
+input[type=text], select, textarea{
+	resize: vertical;
+}
+ input[type="submit"]{
+ 	margin-left: 50%;
+ 	width: 80px;
+ 	height: 30px;
+ }
