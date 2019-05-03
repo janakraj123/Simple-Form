@@ -7,8 +7,40 @@
 <body>
 <center>
 	<form action="#" method="Post">
+		<fieldset>
+		<legend>This is my form</legend>
 		<h1>Please fill the following Form:</h1>
-		Email:<input type="Email" name="email">	
+
+		
+		<label for="email">Email*:</label>
+			<input type="email" name="email" id="email"><br>
+
+		<label for="Passwod">Password:</label>
+			<input type="Passwod" name="pass"><br>
+
+		<label for="Passwod">Conform Password:</label>
+			<input type="Passwod" name="pass"><br>
+		
+		<label>Upload your Picture:</label>
+			<input type="text" name="pic">
+		<input type="button" name="btn" value="Browse"><br>
+
+		<label for="country"> Select Country:</label>
+	    <select id="country" name="country">
+	      <option value="nep">Nepal</option>
+	      <option value="Chin">China</option>
+	      <option value="usa">USA</option>
+	    </select><br>
+			
+	    <label for="checkbox">Hobby:</label>
+	    	<input type="checkbox" name="chek">Football
+	    	<input type="checkbox" name="cheke">Football<br>
+	    <label for="text">Address:</label><br>
+			<textarea rows="4" cols="50">
+			</textarea><br>
+		<label for="submit">Submit</label>
+			<input type="submit" name="sub">
+	</fieldset>
 	</form>
 </center>
 </body>
